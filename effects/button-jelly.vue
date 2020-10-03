@@ -1,5 +1,5 @@
 <template>
-<button>Jelly</button>
+  <button>Jelly</button>
 </template>
 
 <style scoped>

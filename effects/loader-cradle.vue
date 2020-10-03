@@ -1,9 +1,9 @@
 <template>
-<div class="balls">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
+  <div class="balls">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </template>
 
 <style scoped>

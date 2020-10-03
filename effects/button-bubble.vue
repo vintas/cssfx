@@ -1,5 +1,5 @@
 <template>
-<button>Bubble</button>
+  <button>Bubble</button>
 </template>
 
 <style scoped>
@@ -18,7 +18,7 @@ button {
 }
 
 button::before {
-  content: '';
+  content: "";
   z-index: -1;
   position: absolute;
   top: 50%;

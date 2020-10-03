@@ -1,8 +1,8 @@
 <template>
-<div>
-  <input type="text" placeholder="Input Underline">
-  <span></span>
-</div>
+  <div>
+    <input type="text" placeholder="Input Underline" />
+    <span></span>
+  </div>
 </template>
 
 <style scoped>

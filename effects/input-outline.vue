@@ -1,11 +1,11 @@
 <template>
-<div>
-  <input type="text" placeholder="Input Outline">
-  <span class="bottom"></span>
-  <span class="right"></span>
-  <span class="top"></span>
-  <span class="left"></span>
-</div>
+  <div>
+    <input type="text" placeholder="Input Outline" />
+    <span class="bottom"></span>
+    <span class="right"></span>
+    <span class="top"></span>
+    <span class="left"></span>
+  </div>
 </template>
 
 <style scoped>

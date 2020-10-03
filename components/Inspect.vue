@@ -25,12 +25,12 @@ import CodeBlock from "~/components/CodeBlock";
 export default {
   components: { CodeBlock },
   props: {
-    src: Object
+    src: Object,
   },
   data() {
     return {
       htmlCopied: false,
-      cssCopied: false
+      cssCopied: false,
     };
   },
   methods: {
@@ -41,8 +41,8 @@ export default {
     onCssCopy() {
       this.cssCopied = true;
       this.htmlCopied = false;
-    }
-  }
+    },
+  },
 };
 </script>
 

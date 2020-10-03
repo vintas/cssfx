@@ -5,7 +5,11 @@
       <span class="copy" v-clipboard="() => code" v-clipboard:success="copy">
         COPY
         <transition name="copied">
-          <svg v-show="copied" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            v-show="copied"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
         </transition>
@@ -21,13 +25,13 @@ export default {
   props: {
     label: String,
     code: String,
-    copied: Boolean
+    copied: Boolean,
   },
   methods: {
     copy() {
       this.$emit("copy");
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -7,7 +7,7 @@
 <script>
 export default {
   props: {
-    type: String
+    type: String,
   },
   methods: {
     inspect(e) {
@@ -17,8 +17,8 @@ export default {
       if (this.type === "input" && !self) return;
 
       this.$emit("inspect");
-    }
-  }
+    },
+  },
 };
 </script>
 

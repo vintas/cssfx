@@ -1,5 +1,5 @@
 <template>
-<div></div>
+  <div></div>
 </template>
 
 <style scoped>
@@ -15,7 +15,7 @@ div {
 }
 
 div:before {
-  content: '';
+  content: "";
   display: block;
   margin: auto;
   width: 0.75em;

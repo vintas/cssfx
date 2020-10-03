@@ -1,5 +1,5 @@
 <template>
-<span>Highlight</span>
+  <span>Highlight</span>
 </template>
 
 <style scoped>
@@ -9,7 +9,7 @@ span {
 }
 
 span::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   top: 0;

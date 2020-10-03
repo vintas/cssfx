@@ -1,7 +1,11 @@
 <template>
   <header>
     <h1>Beautifully simple click-to-copy CSS effects</h1>
-    <p>A carefully crafted collection designed with a focus on fluidity, simplicity, and ease of use. Powered by CSS with minimal markup. Completely open source and MIT licensed.</p>
+    <p>
+      A carefully crafted collection designed with a focus on fluidity,
+      simplicity, and ease of use. Powered by CSS with minimal markup.
+      Completely open source and MIT licensed.
+    </p>
   </header>
 </template>
 

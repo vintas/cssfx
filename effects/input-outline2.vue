@@ -1,11 +1,11 @@
 <template>
-<div>
-  <input type="text" placeholder="Input Outline">
-  <span class="bottom"></span>
-  <span class="right"></span>
-  <span class="top"></span>
-  <span class="left"></span>
-</div>
+  <div>
+    <input type="text" placeholder="Input Outline" />
+    <span class="bottom"></span>
+    <span class="right"></span>
+    <span class="top"></span>
+    <span class="left"></span>
+  </div>
 </template>
 
 <style scoped>
@@ -71,11 +71,13 @@ span {
   right: 0;
 }
 
-input:focus ~ .top, input:focus ~ .bottom {
+input:focus ~ .top,
+input:focus ~ .bottom {
   transform: scaleX(1);
 }
 
-input:focus ~ .left, input:focus ~ .right {
+input:focus ~ .left,
+input:focus ~ .right {
   transform: scaleY(1);
 }
 </style>

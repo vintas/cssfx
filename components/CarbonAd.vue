@@ -5,7 +5,7 @@
 <script>
 export default {
   mounted() {
-    this.$nextTick(function() {
+    this.$nextTick(function () {
       const script = document.createElement("script");
       script.setAttribute("id", "_carbonads_js");
       script.setAttribute("type", "text/javascript");
@@ -15,7 +15,7 @@ export default {
       );
       this.$refs.carbonScript.appendChild(script);
     });
-  }
+  },
 };
 </script>
 

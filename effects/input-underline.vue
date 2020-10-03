@@ -1,8 +1,8 @@
 <template>
-<div>
-  <input type="text" placeholder="Input Underline">
-  <span></span>
-</div>
+  <div>
+    <input type="text" placeholder="Input Underline" />
+    <span></span>
+  </div>
 </template>
 
 <style scoped>
@@ -45,4 +45,3 @@ input:focus ~ span {
   transform: scaleX(1);
 }
 </style>
-

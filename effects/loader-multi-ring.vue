@@ -1,9 +1,9 @@
 <template>
-<div class="loader">
-  <div class="outer"></div>
-  <div class="middle"></div>
-  <div class="inner"></div>
-</div>
+  <div class="loader">
+    <div class="outer"></div>
+    <div class="middle"></div>
+    <div class="inner"></div>
+  </div>
 </template>
 
 <style scoped>
