@@ -1,7 +1,7 @@
 <template>
-<div class="box">
-  <div class="plane"></div>
-</div>
+  <div class="box">
+    <div class="plane"></div>
+  </div>
 </template>
 
 <style scoped>

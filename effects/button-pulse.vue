@@ -1,5 +1,5 @@
 <template>
-<button>Pulse</button>
+  <button>Pulse</button>
 </template>
 
 <style scoped>
@@ -20,7 +20,7 @@ button:hover {
 }
 
 button::before {
-  content: '';
+  content: "";
   z-index: -1;
   position: absolute;
   top: 0;

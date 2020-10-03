@@ -1,7 +1,7 @@
 <template>
-<div class="box">
-  <div class="coin"></div>
-</div>
+  <div class="box">
+    <div class="coin"></div>
+  </div>
 </template>
 
 <style scoped>

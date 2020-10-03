@@ -1,5 +1,5 @@
 <template>
-<span>Pillars</span>
+  <span>Pillars</span>
 </template>
 
 <style scoped>
@@ -7,8 +7,9 @@ span {
   position: relative;
 }
 
-span::before, span::after {
-  content: '';
+span::before,
+span::after {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,7 +28,8 @@ span::after {
   right: -8px;
 }
 
-span:hover::before, span:hover::after {
+span:hover::before,
+span:hover::after {
   transform: scaleY(1);
 }
 </style>

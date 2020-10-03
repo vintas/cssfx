@@ -1,15 +1,15 @@
 <template>
-<div class="dots">
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
+  <div class="dots">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </template>
 
 <style scoped>

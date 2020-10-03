@@ -1,5 +1,5 @@
 <template>
-<span>Bars</span>
+  <span>Bars</span>
 </template>
 
 <style scoped>
@@ -7,8 +7,9 @@ span {
   position: relative;
 }
 
-span::before, span::after {
-  content: '';
+span::before,
+span::after {
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -27,7 +28,8 @@ span::after {
   bottom: 0;
 }
 
-span:hover::before, span:hover::after {
+span:hover::before,
+span:hover::after {
   transform-origin: center left;
   transform: scaleX(1);
 }

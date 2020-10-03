@@ -1,5 +1,5 @@
 <template>
-<span>Strikethrough</span>
+  <span>Strikethrough</span>
 </template>
 
 <style scoped>
@@ -8,7 +8,7 @@ span {
 }
 
 span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;

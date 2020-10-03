@@ -1,5 +1,5 @@
 <template>
-<span>Bars</span>
+  <span>Bars</span>
 </template>
 
 <style scoped>
@@ -7,8 +7,9 @@ span {
   position: relative;
 }
 
-span::before, span::after {
-  content: '';
+span::before,
+span::after {
+  content: "";
   position: absolute;
   left: 0;
   right: 0;

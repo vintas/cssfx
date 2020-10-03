@@ -1,5 +1,5 @@
 <template>
-<div></div>
+  <div></div>
 </template>
 
 <style scoped>
@@ -13,7 +13,7 @@ div {
 }
 
 div::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -3px;
   left: -3px;

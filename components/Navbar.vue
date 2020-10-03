@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <img class="logo" src="~/assets/logo.svg" alt="cssfx">
+    <img class="logo" src="~/assets/logo.svg" alt="cssfx" />
 
     <div class="social">
       <a href="https://github.com/jolaleye/cssfx" target="_blank">

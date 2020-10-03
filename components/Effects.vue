@@ -6,7 +6,7 @@
       :type="effect.type"
       @inspect="$emit('inspect', effect.name)"
     >
-      <component :is="effect.name"/>
+      <component :is="effect.name" />
     </Effect>
   </transition-group>
 </template>
@@ -18,8 +18,8 @@ import { components } from "~/assets/effects.js";
 export default {
   components: { Effect, ...components },
   props: {
-    effects: Object
-  }
+    effects: Object,
+  },
 };
 </script>
 

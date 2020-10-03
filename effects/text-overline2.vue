@@ -1,5 +1,5 @@
 <template>
-<span>Overline</span>
+  <span>Overline</span>
 </template>
 
 <style scoped>
@@ -8,7 +8,7 @@ span {
 }
 
 span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: 50%;

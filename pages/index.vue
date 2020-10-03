@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="color"></div>
-    <Navbar/>
-    <Header/>
-    <CarbonAd/>
-    <Effects :effects="effects" @inspect="inspect"/>
+    <Navbar />
+    <Header />
+    <CarbonAd />
+    <Effects :effects="effects" @inspect="inspect" />
     <div class="inspect-bg" v-if="inspecting"></div>
     <transition name="inspect">
-      <Inspect v-if="inspecting" :src="inspectSrc" @close="closeInspect"/>
+      <Inspect v-if="inspecting" :src="inspectSrc" @close="closeInspect" />
     </transition>
-    <Controls @shuffle="shuffle" @reset="reset" @filter="filter"/>
+    <Controls @shuffle="shuffle" @reset="reset" @filter="filter" />
   </div>
 </template>
 
@@ -49,8 +49,8 @@ export default {
         ([name, data]) => filters[data.type]
       );
       this.effects = Object.fromEntries(filtered);
-    }
-  }
+    },
+  },
 };
 </script>
 
