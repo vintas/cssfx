@@ -8,6 +8,17 @@ exclude_patterns = ["/static/**"]
 name = "javascript"
 enabled = true
 
+  [analyzers.meta]
+  ecma_version = "2016"
+  module_system = "commonjs"
+  environment = [
+    "nodejs",
+    "browser",
+    "jest",
+  ]
+
+  plugins = ["vue"]
+
 [[transformers]]
 name = "prettier"
 enabled = true
